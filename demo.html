@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js" crossorigin="anonymous"></script>
+		<script src="chakras.js"></script>
+		<script>
+		function onload(){
+			  var chakrabody=new chakras($('#chakras'),{
+                chakras:{
+                    crown:{
+                        intensity:7
+                    },
+                    thirdeye:{
+                        intensity:6
+                    },
+                    throat:{
+                        intensity:5
+                    },
+                    heart:{
+                        intensity:4
+                    },
+                    solarplexus:{
+                        intensity:3
+                    },
+                    sacral:{
+                        intensity:2
+                    },
+                    root:{
+                        intensity:1
+                    }
+                }
+            });
+			chakrabody.start();
+		}
+		</script>
+	</head>
+	<body onload="onload()" style="margin:0;padding:0;width:100%;height:100%;position:relative">
+		<div style="position:absolute;top:0;left:0;right:0;bottom:0;background:black;" id="chakras"></div>
+	</body>
+</html>
