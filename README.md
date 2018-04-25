@@ -2,8 +2,8 @@
 
 [demo](https://rawgit.com/tbassett44/chakras/1.0/demo.html)
 
+## Initalize
 ```
-##Initalize
 var chakrabody=new chakras($('#chakras'),{
     chakras:{
         crown:{
@@ -31,11 +31,13 @@ var chakrabody=new chakras($('#chakras'),{
 });
 chakrabody.start();
 ```
-##Update
+
+## Update
 ```
 chakrabody.set('crown',{intensity:4})
 ```
-##Other Options
+
+## Other Options
 ```
 {
     background:'https://s3.amazonaws.com/wearenectar/static/chakras.jpg', //background image put in (fit) container
