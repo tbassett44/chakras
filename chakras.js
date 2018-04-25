@@ -3,7 +3,7 @@
 	self.ele=ele;
 	if(!opts) opts={};
 	self.options=$.extend(true,{},{
-		background:'https://www.womenfitness.net/wp/wp-content/uploads/2016/10/chakras.jpg',
+		background:'https://s3.amazonaws.com/wearenectar/static/chakras.jpg',
 		hara:.5,
 		radius:.06,
 		order:['crown','thirdeye','throat','heart','solarplexus','sacral','root'],
