@@ -1,6 +1,6 @@
 # Chakra API
 
-[demo](https://rawgit.com/tbassett44/chakras/1.0/demo.html)
+[demo](https://rawcdn.githack.com/tbassett44/chakras/1.0/demo.html)
 
 ## Initalize
 ```
